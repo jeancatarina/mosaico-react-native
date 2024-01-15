@@ -1,1 +1,0 @@
-# mosaico-react-native
