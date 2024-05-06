@@ -3,10 +3,10 @@ import { StyleSheet } from 'react-native';
 import { Text, View } from '../../components/Themed';
 import { Strings } from '../../constants/Strings';
 
-export default function TabOneScreen() {
+export default function TabCalendarScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>{Strings.news}</Text>
+      <Text style={styles.title}>{Strings.calendar}</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
     </View>
   );
