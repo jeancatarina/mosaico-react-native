@@ -1,8 +1,8 @@
-import { StyleSheet } from "react-native";
-import { Agenda } from "react-native-calendars";
+import { StyleSheet } from "react-native"
+import { Agenda } from "react-native-calendars"
 
-import { Text, View } from "../../components/Themed";
-import "../../config/locale";
+import { Text, View } from "../../components/Themed"
+import "../../config/locale"
 
 export default function TabCalendarScreen() {
   return (
@@ -56,11 +56,11 @@ export default function TabCalendarScreen() {
                 <Text style={styles.eventName}>{item.name}</Text>
               </View>
             </View>
-          );
+          )
         }}
       />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -104,4 +104,4 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: "gray",
   },
-});
+})

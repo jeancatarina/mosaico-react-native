@@ -4,4 +4,4 @@ export const Strings = {
   calendar: "Calendário",
   events: "Eventos",
   more: "Mais",
-};
+}

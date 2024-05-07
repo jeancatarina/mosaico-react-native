@@ -1,8 +1,8 @@
-import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { StyleSheet } from "react-native";
-import MapView, { Marker } from "react-native-maps";
+import { MaterialCommunityIcons } from "@expo/vector-icons"
+import { StyleSheet } from "react-native"
+import MapView, { Marker } from "react-native-maps"
 
-import { Text, View } from "../../components/Themed";
+import { Text, View } from "../../components/Themed"
 
 export default function TabTwoScreen() {
   return (
@@ -33,7 +33,7 @@ export default function TabTwoScreen() {
         </Marker>
       </MapView>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -71,4 +71,4 @@ const styles = StyleSheet.create({
     padding: 5,
     alignItems: "center",
   },
-});
+})

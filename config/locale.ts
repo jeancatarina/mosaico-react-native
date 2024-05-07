@@ -1,4 +1,4 @@
-import { LocaleConfig } from "react-native-calendars";
+import { LocaleConfig } from "react-native-calendars"
 
 LocaleConfig.locales["pt-br"] = {
   monthNames: [
@@ -40,7 +40,7 @@ LocaleConfig.locales["pt-br"] = {
   ],
   dayNamesShort: ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
   today: "Hoje",
-};
-LocaleConfig.defaultLocale = "pt-br";
+}
+LocaleConfig.defaultLocale = "pt-br"
 
-export { LocaleConfig };
+export { LocaleConfig }

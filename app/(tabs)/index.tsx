@@ -1,7 +1,7 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from "react-native"
 
-import { Text, View } from "../../components/Themed";
-import { Strings } from "../../constants/Strings";
+import { Text, View } from "../../components/Themed"
+import { Strings } from "../../constants/Strings"
 
 export default function TabOneScreen() {
   return (
@@ -13,7 +13,7 @@ export default function TabOneScreen() {
         darkColor="rgba(255,255,255,0.1)"
       />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -31,4 +31,4 @@ const styles = StyleSheet.create({
     height: 1,
     width: "80%",
   },
-});
+})
